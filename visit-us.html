@@ -3,130 +3,103 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Visit Us — The Workroom Tailors</title>
-<meta name="description" content="Visit The Workroom Tailors at 93 Bramley Road, London N14 4EY. Walk in — no appointment needed. Mon–Fri 9–5, Sat 10–3.">
+<title>Visit Us | The Workroom Tailors, 93 Bramley Road, London N14</title>
+<meta name="description" content="Find The Workroom at 93 Bramley Road, London N14 4EY. Open Monday to Friday 9am to 5pm and Saturday 10am to 3pm. No appointment needed.">
+<meta name="robots" content="noindex, nofollow">
 <link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+<a class="skip" href="#main">Skip to content</a>
+
 <header class="site-header">
   <div class="wrap header-in">
-    <a class="brand" href="index.html">
-      <img src="assets/logo.png" alt="The Workroom — Alteration Specialists">
-    </a>
-    <nav class="main-nav" id="nav" aria-label="Main navigation">
+    <a class="brand" href="index.html"><img src="assets/logo.png" alt="The Workroom, Alteration Specialists" width="600" height="200"></a>
+    <nav class="main-nav" id="nav" aria-label="Main">
       <a href="index.html">Home</a>
-      <a href="our-services.html">Our Services</a>
-      <a href="visit-us.html" class="active">Visit Us</a>
-      <a href="visit-us.html" class="nav-cta">Walk in today</a>
+      <a href="our-services.html">Services &amp; prices</a>
+      <a href="visit-us.html" aria-current="page">Visit us</a>
+      <a href="tel:02088828949" class="nav-phone">020 8882 8949</a>
     </nav>
-    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <button class="nav-toggle" aria-controls="nav" aria-expanded="false"><span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span></button>
   </div>
 </header>
 
-<section class="page-hero on-dark" style="--hero-img: url('assets/fitting-room.jpg');">
+<main id="main">
+
+<section class="page-hero">
   <div class="wrap">
-    <div class="crumb"><a href="index.html">Home</a> / Visit Us</div>
-    <h1>Come and see the <span class="brass-i">workroom</span></h1>
-    <p class="lede">93 Bramley Road, London N14 4EY. Walk in with your garment — there's always a tailor here, and never a booking form.</p>
+    <div class="crumb"><a href="index.html">Home</a> / Visit us</div>
+    <h1>Come and see the workroom</h1>
+    <p class="lede">93 Bramley Road, London N14 4EY. Bring your garment whenever we're open; there's always a tailor in.</p>
   </div>
 </section>
 
 <section class="section">
-  <div class="wrap">
-    <div class="grid-2" style="align-items: start; gap: 48px;">
-      <div class="reveal">
-        <ul class="info-list">
-          <li>
-            <div class="icon">📍</div>
-            <div><b>Address</b><span>93 Bramley Road<br>London N14 4EY</span></div>
-          </li>
-          <li>
-            <div class="icon">📞</div>
-            <div><b>Phone</b><a href="tel:02088828949">020 8882 8949</a></div>
-          </li>
-          <li>
-            <div class="icon">✉️</div>
-            <div><b>Email</b><a href="mailto:info@theworkroomtailors.com">info@theworkroomtailors.com</a></div>
-          </li>
-        </ul>
-        <h3 class="display" style="font-family: var(--serif); color: var(--ink); font-size: 1.25rem; margin: 26px 0 10px;">Opening hours</h3>
-        <ul class="hours-table">
-          <li><span>Monday – Friday</span><b>9:00 – 17:00</b></li>
-          <li><span>Saturday</span><b>10:00 – 15:00</b></li>
-          <li><span>Sunday</span><b>Closed</b></li>
-        </ul>
-        <div class="map-ph" style="margin-top: 28px;">
-          <span class="pin">📍</span>
-          <span><b>93 Bramley Road, N14 4EY</b></span>
-          <span>Interactive map &amp; directions go here on the live build</span>
-        </div>
-      </div>
-
-      <form class="form-card reveal" data-demo>
-        <h3 style="font-family: var(--serif); color: var(--ink); font-size: 1.35rem; margin-bottom: 8px;">Ask us anything first</h3>
-        <p style="font-size: 0.9rem; margin-bottom: 20px;">No appointment needed to visit — but if you'd like to check something before coming in, send a note and we'll reply quickly.</p>
-        <div class="form-field">
-          <label for="v-name">Your name</label>
-          <input id="v-name" type="text" placeholder="e.g. Daniel Osei" required>
-        </div>
-        <div class="form-row">
-          <div class="form-field">
-            <label for="v-phone">Phone</label>
-            <input id="v-phone" type="tel" placeholder="07…">
-          </div>
-          <div class="form-field">
-            <label for="v-email">Email</label>
-            <input id="v-email" type="email" placeholder="you@example.com" required>
-          </div>
-        </div>
-        <div class="form-field">
-          <label for="v-msg">Your question</label>
-          <textarea id="v-msg" placeholder="e.g. Can you take in a leather jacket? Roughly how much?"></textarea>
-        </div>
-        <button type="submit" class="btn btn-cloth" style="width: 100%;">Send my question</button>
-        <div class="form-success">✓ Thanks — the team will reply shortly. (Demo — no data was sent.)</div>
-      </form>
-    </div>
-  </div>
-</section>
-
-<section class="section deep-linen">
-  <div class="wrap band-in">
-    <img class="reveal" src="assets/shop-interior.jpg" alt="Inside The Workroom — tailoring counter and fitting bar" loading="lazy">
+  <div class="wrap visit-grid">
     <div class="reveal">
-      <span class="eyebrow">While you're here</span>
-      <h2>Worth the visit, even before the fitting</h2>
-      <div class="stitch-rule"></div>
-      <p class="lede" style="margin-top: 20px;">The shop was fitted out to make tailoring feel the way it should: a proper counter, a private fitting room with good mirrors, and a coffee at the bar while a tailor pins your garment and prices the work in front of you.</p>
+      <dl class="contact-list">
+        <div><dt>Address</dt><dd>93 Bramley Road<br>London N14 4EY</dd></div>
+        <div><dt>Phone</dt><dd><a href="tel:02088828949">020 8882 8949</a></dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:info@theworkroomtailors.com">info@theworkroomtailors.com</a></dd></div>
+      </dl>
+      <div class="actions">
+        <a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&amp;query=93+Bramley+Road+London+N14+4EY" target="_blank" rel="noopener">Open in Google Maps</a>
+        <a class="btn btn-line" href="tel:02088828949">Call the shop</a>
+      </div>
+    </div>
+    <div class="hours-card reveal">
+      <h3>Opening hours</h3>
+      <dl class="hours">
+        <div><dt>Monday to Friday</dt><dd>9am – 5pm</dd></div>
+        <div><dt>Saturday</dt><dd>10am – 3pm</dd></div>
+        <div class="closed"><dt>Sunday</dt><dd>Closed</dd></div>
+      </dl>
+      <p>No appointment needed. For a fitting, wear the garment or bring the shoes you'll wear with it.</p>
     </div>
   </div>
 </section>
 
-<section class="section dark on-dark">
-  <div class="wrap cta-final reveal">
-    <span class="eyebrow">No appointment. No waiting list.</span>
-    <h2>Just bring the garment</h2>
-    <p class="lede">If we're open, a tailor is in. Mon–Fri 9–5, Sat 10–3.</p>
-    <div class="cta-buttons">
-      <a href="tel:02088828949" class="btn btn-brass">Call 020 8882 8949</a>
-      <a href="our-services.html" class="btn btn-outline">See services &amp; prices</a>
+<section class="band band-camel">
+  <div class="wrap split">
+    <figure class="split-photo reveal"><img src="assets/shop-interior.jpg" alt="Inside The Workroom: the tailoring counter and fitting bar" width="1800" height="1127" loading="lazy"></figure>
+    <div class="split-copy reveal">
+      <p class="label">While you're here</p>
+      <h2>Worth the visit, even before the fitting</h2>
+      <p>A proper counter, a private fitting room with good mirrors, and a coffee at the bar while a tailor pins your garment and prices the work in front of you.</p>
     </div>
   </div>
 </section>
+
+<section class="section closing">
+  <div class="wrap closing-in reveal">
+    <p class="label">No appointment, no waiting list</p>
+    <h2>Just bring the garment</h2>
+    <p class="lede">If we're open, a tailor is in.</p>
+    <div class="actions center">
+      <a href="tel:02088828949" class="btn btn-dark">Call 020 8882 8949</a>
+      <a href="our-services.html" class="btn btn-line">Services &amp; prices</a>
+    </div>
+  </div>
+</section>
+
+</main>
 
 <footer class="site-footer">
   <div class="wrap footer-in">
     <div class="footer-brand">
-      <img src="assets/logo.png" alt="The Workroom — Alteration Specialists">
-      <p>Alterations, repairs and reconstruction — crafted in our London workroom.</p>
+      <img src="assets/logo.png" alt="The Workroom, Alteration Specialists" width="600" height="200" loading="lazy">
+      <p>Alterations, repairs and reconstruction, made in our London workroom.</p>
     </div>
     <div>
       <h4>Explore</h4>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="our-services.html">Our services</a></li>
+        <li><a href="our-services.html">Services &amp; prices</a></li>
         <li><a href="visit-us.html">Visit us</a></li>
       </ul>
     </div>
@@ -140,19 +113,19 @@
     <div>
       <h4>The shop</h4>
       <ul>
-        <li>93 Bramley Road</li>
-        <li>London N14 4EY</li>
-        <li>Mon–Fri 9–5 · Sat 10–3</li>
+        <li>93 Bramley Road, London N14 4EY</li>
+        <li>Mon–Fri 9am–5pm</li>
+        <li>Sat 10am–3pm · Sun closed</li>
       </ul>
     </div>
   </div>
   <div class="wrap footer-legal">
-    <span>© 2026 The Workroom Tailors. All rights reserved.</span>
-    <span>Design concept — not the live site. Prices &amp; AI features use illustrative demo data.</span>
+    <span>© 2026 The Workroom Tailors</span>
+    <span>Design concept by AMP London Group, not the live site. Guide prices are illustrative.</span>
   </div>
 </footer>
 
-<script src="js/main.js"></script>
-<script src="js/chat.js"></script>
+<script src="js/main.js" defer></script>
+<script src="js/chat.js" defer></script>
 </body>
 </html>
